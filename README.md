@@ -56,4 +56,4 @@ $ sudo python wrapper.py <arguments>
 
 ## Acknowledgments
 
-* **Ilona Binenbaum** - *QTL analysis*
+* **Binenbaum Ilona** - *QTL analysis*
