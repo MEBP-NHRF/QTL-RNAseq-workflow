@@ -52,8 +52,9 @@ $ sudo python wrapper.py <arguments>
 
 ## Authors
 
-* **Fotakis Giorgos** - *Initial work*
+* **Fotakis Giorgos** - *QTL-RNAseq analysis workflow development, Docker containerization*
 
 ## Acknowledgments
 
 * **Binenbaum Ilona** - *QTL analysis*
+* **Vlachavas Eustathios** - *Rscripts development*
