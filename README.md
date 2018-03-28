@@ -2,7 +2,7 @@
 
 This workflow is designed for automated downstream analysis of RNA-seq and μ-array data. The RNA-seq part is optimized for Illumina TruSeq Technology, so if the scripts are run on default parameters the user is required to input paired – end (forward – reverse) stranded Illumina reads.
 
-## 1. Requirements
+## 1. Prerequisites
 
 In order to run the scripts the user is required to:
 
