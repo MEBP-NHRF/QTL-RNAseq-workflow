@@ -35,7 +35,7 @@ In order for the workflow to run the user is required to create a directory with
 
 #### (1) reads1: FOLDER where the forward reads are stored
 #### (2) reads2: FOLDER where the reverse reads are stored
-#### (3) hisat2_index:  FOLDER where the index for HISAT2 is stored (if you need to download a specific index please visit the HISAT 2 index repository (ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data)
+#### (3) hisat2_index:  FOLDER where the index for HISAT2 is stored (if you need to download a specific index please visit the HISAT 2 index repository (ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data))
 #### (4) alignments: FOLDER where the aligned reads are stored (HISAT2 output)
 #### (5) counts: FOLDER where the raw counts are stored (FeatureCounts output)
 #### (6) CONDENSED: FOLDER where the condensed data are stored (HAPPY input, please visit)
