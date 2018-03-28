@@ -2,14 +2,14 @@
 
 This workflow is designed for automated downstream analysis of RNA-seq and μ-array data. The RNA-seq part is optimized for Illumina TruSeq Technology, so if the scripts are run on default parameters the user is required to input paired – end (forward – reverse) stranded Illumina reads.
 
-## 1. Prerequisites
+## Prerequisites
 
 In order to run the scripts the user is required to:
 
-### 1.1 Download Docker engine
+### 1. Download Docker engine
 The user is required to download and install the Docker engine. If you are unfamiliar with Docker please visit [Docker](https://docs.docker.com/install/)
 
-### 1.2 Pull the images
+### 2. Pull the images
 After the Docker engine installation the user is required to pull the images from mebp/qtl-rnaseq-workflow Docker Hub repository. The pull command should be something like:
 ```
 $ sudo docker pull mebp/qtl-rnaseq-workflow:<tag>
@@ -30,7 +30,7 @@ If you are unfamiliar with Docker please clone the dockerPull.py script locally 
 $ sudo python /path/to/script/dockerPull.py
 ```
 
-### 1.3 Prepare the working directory
+### 3. Prepare the working directory
 In order for the workflow to run the user is required to create a directory with the following files and folders
 
 #### (1) reads1: FOLDER where the forward reads are stored
@@ -42,7 +42,7 @@ In order for the workflow to run the user is required to create a directory with
 #### (7) file.gtf: a GTF FILE for the appropriate genome (for example Mus_musculus.GRCm38.91.gtf)
 #### (8) data.txt: a TXT FILE (HAPPY input)
 
-### 1.4 Clone and run the scripts locally
+### 4. Clone and run the scripts locally
 The scripts should be downloaded and run from inside the same directory (core.py is called as a module inside wrapper.py and needs to be in the same directory):
 ```
 $ cd /path/to/scripts/
