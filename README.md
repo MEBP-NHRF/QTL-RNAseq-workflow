@@ -12,9 +12,9 @@ The user is required to download and install the Docker engine. If you are unfam
 ### 1.2 Pull the images
 After the Docker engine installation the user is required to pull the images from mebp/qtl-rnaseq-workflow Docker Hub repository. The pull command should be something like:
 
-$ sudo docker pull mebp/qtl-rnaseq-workflow:<tag>
+$ sudo docker pull mebp/qtl-rnaseq-workflow:*tag*
 
-Where <tag> is the specific tool needed for the workflow to run properly.
+Where *tag* is the specific tool needed for the workflow to run properly.
 
 Available images:
 * mebp/qtl-rnaseq-workflow:trim-galore
