@@ -16,7 +16,7 @@ $ sudo docker pull mebp/qtl-rnaseq-workflow:<tag>
 ```
 Where `<tag>` is the name of the specific tool needed for the workflow to run properly.
 
-Available images:
+### Available images:
 * mebp/qtl-rnaseq-workflow:trim-galore
 * mebp/qtl-rnaseq-workflow:hisat2
 * mebp/qtl-rnaseq-workflow:featurecounts
