@@ -49,3 +49,11 @@ $ cd /path/to/scripts/
 
 $ sudo python wrapper.py <arguments>
 ```
+
+## Authors
+
+* **Fotakis Giorgos** - *Initial work*
+
+## Acknowledgments
+
+* **Ilona Binenbaum** - *QTL analysis*
